@@ -30,11 +30,27 @@ File dataset sudah disediakan di repo ini (`milknew.csv`).
 - scikit-learn
 - imbalanced-learn
 
-(daftar lengkap cek `requirements.txt`)
+## Metode yang Digunakan
+Beberapa metode dan teknik machine learning yang digunakan dalam proyek ini:
 
-## 🚀 Cara Menjalankan Project
+Decision Tree Classifier
+Digunakan untuk klasifikasi dan analisis feature importance.
 
-1. **Clone repo ini:**
-   ```bash
-   git clone https://github.com/username/milk-quality-classification.git
-   cd milk-quality-classification
+K-Nearest Neighbors (KNN)
+Untuk membandingkan performa model berbasis tetangga terdekat.
+
+Naive Bayes (GaussianNB)
+Untuk klasifikasi berbasis probabilitas.
+
+Stratified K-Fold Cross Validation
+Digunakan untuk validasi model dengan membagi data menjadi beberapa fold yang proporsional terhadap kelas.
+
+SMOTE (Synthetic Minority Oversampling Technique)
+Untuk menangani masalah data imbalance (jumlah data pada kelas target yang tidak seimbang).
+
+Feature Selection (SelectFromModel)
+Untuk memilih fitur/variabel paling penting dalam menentukan kualitas susu.
+
+
+
+
