@@ -30,23 +30,15 @@ File dataset sudah disediakan di repo ini (`milknew.csv`).
 - scikit-learn
 - imbalanced-learn
 
-## Metode yang Digunakan
-Beberapa metode dan teknik machine learning yang digunakan dalam proyek ini:
+## 🤖 Metode Machine Learning yang Digunakan
 
-Decision Tree Classifier
-Digunakan untuk klasifikasi dan analisis feature importance.
-
-K-Nearest Neighbors (KNN)
-Untuk membandingkan performa model berbasis tetangga terdekat.
-
-Naive Bayes (GaussianNB)
-Untuk klasifikasi berbasis probabilitas.
-
-Stratified K-Fold Cross Validation
-Digunakan untuk validasi model dengan membagi data menjadi beberapa fold yang proporsional terhadap kelas.
-
-SMOTE (Synthetic Minority Oversampling Technique)
-Untuk menangani masalah data imbalance (jumlah data pada kelas target yang tidak seimbang).
+- **Decision Tree Classifier**  
+  Untuk klasifikasi dan analisis feature importance.
+- **K-Nearest Neighbors (KNN)**
+- **Naive Bayes (GaussianNB)**
+- **Stratified K-Fold Cross Validation**
+- **SMOTE** (Synthetic Minority Oversampling Technique)
+- **Feature Selection (SelectFromModel)**
 
 Feature Selection (SelectFromModel)
 Untuk memilih fitur/variabel paling penting dalam menentukan kualitas susu.
